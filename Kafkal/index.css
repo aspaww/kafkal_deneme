@@ -3,32 +3,38 @@ body{
     font-size: 1.2rem;
 }
 h1{
-    background-color: #00FFFF;
+    background-color: lightblue;
+    color: #3F8ED3;
     padding: 1rem;
     width: 100%;
 }
 h2{
-    background-color: green;
+    background-color: lightgreen;
+    color:#719C73;
     padding: 1rem;
     width: 100%;
 }
 h3{
-    background-color: red;
+    background-color: lightcoral;
+    color:#DB574D;
     padding: 1rem;
     width: 100%;
 }
 h4{
-    background-color:yellow;
+    background-color:lightyellow;
+    color:#F6E658;
     padding: 1rem;
     width: 100%;
 }
 h5{
-    background-color: pink;
+    background-color: lightpink;
+    color:#E18BA8;
     padding: 1rem;
     width: 100%;
 }
 h6{
-    background-color: gray;
+    background-color: lightgray;
+    color:#919191;
     padding: 1rem;
     width: 100%;
 }
@@ -38,16 +44,16 @@ span{
 table {
     border-collapse: collapse;
     margin: 20px auto;
-    width: 100%;
+    width: 100vw;
 }
 table th{
-    background-color:#f4f4f4;
+    background-color:lightgray;
+    border: 1px solid lightslategray;
     text-align: left;
-    border: 1px solid black;
     padding: 10px;
 }
 table td{
-    border: 1px solid grey;
+    border: 1px solid lightslategray;
     padding: 10px;
 }
 .btn{
@@ -57,6 +63,8 @@ table td{
     height: 50px;
     width: 180px;
     margin-top: 8px;
+    text-align: center;
+    border-color: white;
 }
 .btn:hover{
     background-color: blue;
